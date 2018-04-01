@@ -6,9 +6,7 @@
 
 
 ### 2-
-
 #### A)
-
 ```python
 def initPopulation(self, num_individuals):
 
@@ -23,10 +21,7 @@ def initPopulation(self, num_individuals):
         return population
 ```
 
-
-
 #### B)
-
 ``` python
 def fitness(self,population):
 
@@ -39,23 +34,7 @@ def fitness(self,population):
         #print(fitnessPop)
         return fitnessPop
 ```
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-
-
 #### C)
-
 ```python
 def __selection(self):
 
@@ -83,10 +62,7 @@ def __selection(self):
         return selected
 ```
 
-
-
 #### D)
-
 ```python
 def __crossover(self,individual_x,individual_y):
 
@@ -109,10 +85,7 @@ def __crossover(self,individual_x,individual_y):
         return new_individual_x,new_individual_y
 ```
 
-
-
 #### E)
-
 ```python
 def __mutation(self,individual):
 
@@ -132,19 +105,14 @@ def __mutation(self,individual):
 return individual
 ```
 
-
-
 ### 3-
-
 ```python
 MaxGeneration = 100
 ```
 
-
-
 ### 4-
-
 **Ótimo da função:** `x1 = 1` e `x2 = 1` , que gera`f(x1,x2) = 0`
+
 **Ótimo obtido:** `x1 = 0.996078` e `x2 = 0.992157`, que gerou `f(x1,x2) = 1.54024e-05`
 
 **População:** 100 indivíduos
